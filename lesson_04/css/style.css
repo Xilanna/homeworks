@@ -1,0 +1,57 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+body{
+    font-family: "GothamRounded", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.50;
+}
+header{
+    font-family: "Tektur", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+h1{
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+}
+ul{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+a{
+    font-style: oblique;
+    text-decoration: underline;
+    text-decoration-color: black
+}
+
+.page-first{
+    text-align: justify;
+    text-transform: lowercase;
+}
+.page-first>p>span{
+    text-decoration: overline;
+    text-decoration-color: midnightblue;
+    text-decoration-style: wavy;
+}
+.page-second{
+    font-weight: 500;
+    text-align: right;
+    word-spacing: 10px;
+}
+.page-second>p>span{
+    text-decoration: line-through;
+    text-decoration-color: brown;
+}
+.page-third{
+    text-shadow: 2px 2px 3px rgb(127, 108, 146), 3px 3px 5px rgb(65, 52, 78);
+}
+.footer{
+    font-weight: 700;
+    text-transform: capitalize;
+    white-space: nowrap;
+}
