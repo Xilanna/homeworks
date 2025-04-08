@@ -1,0 +1,194 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+h1{
+    font-family: "Delius Unicase", cursive;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.part{
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    max-width: 600px;
+    max-height: 300px;
+    background-color: pink;
+}
+.block{
+    margin: 0 auto;
+    max-width: 550px;
+    max-height: 250px;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: auto;
+    background-color:thistle;
+}
+.text{
+    font-family: "Delius Unicase", cursive;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.5;
+}
+.part-two{
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 10px;
+    max-width: 600px;
+    max-height: 300px;
+    background-color: lightsteelblue;
+}
+.block-foto{
+    margin: 0 auto;
+    max-width: 550px;
+    max-height: 250px;
+    padding: 10px;
+    font-family: "Delius Unicase", cursive;
+    font-weight: 400;
+    background-color: lightblue;
+}
+.block-foto img{
+    max-width: 250px;
+    max-height: 150px;
+}
+.top{
+    vertical-align: top;
+}
+.middle{
+    vertical-align: middle;
+}
+.bottom{
+    vertical-align: bottom;
+}
+.layout{
+    width: 100%;
+    min-height: 820px;
+    background-color: rgba(35, 31, 139, 1);
+}
+.container{
+    max-width: 1050px;
+    min-height: 790px;
+    margin: 0 auto;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+.title-row{
+    max-width: 765px;
+    min-height: 140px;
+    margin-bottom: 70px;
+}
+.big-title,
+.text-title{
+    color: rgba(255, 255, 255, 1);
+}
+.little-title{
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.2px;
+    color: rgba(90, 84, 242, 1);
+}
+.big-title{
+    margin-bottom: 10px;
+    font-family: "CircularStd", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+}
+.text-title{
+    font-family: "CircularStd", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+}
+.card-row{
+    min-height: 360px;
+}
+.card-row img{
+    width: 72px;
+    height: 72px;
+    margin-bottom: 20px;
+}
+.card-school{
+    max-width: 230px;
+    min-height: 290px;
+    margin-right: 35px;
+    padding: 35px 40px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: rgba(255, 255, 255, 1);
+}
+.card-book{
+    max-width: 230px;
+    min-height: 310px;
+    margin-top: 50px;
+    margin-right: 35px;
+    padding: 35px 40px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: rgba(255, 255, 255, 1);
+}
+.card-education{
+    max-width: 230px;
+    min-height: 290px;
+    margin-right: 35px;
+    padding: 35px 40px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: rgba(90, 84, 242, 1);
+}
+.card-lecture{
+    max-width: 230px;
+    min-height: 310px;
+    padding: 35px 40px;
+    margin-top: 50px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: rgba(255, 255, 255, 1);
+}
+.title-card{
+    font-family: "CircularStd", sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.1px;
+    margin-bottom: 20px;
+    color: rgba(37, 43, 66, 1);
+}
+.line{
+    width: 50px;
+    height: 2px;
+    margin-bottom: 20px;
+    background-color: rgba(231, 64, 64, 1);
+    color: rgba(255, 255, 255, 1);
+}
+.card-text{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    color: rgba(115, 115, 115, 1);
+}
+.card-education .title-card{
+    color: rgba(255, 255, 255, 1);
+}
+.card-education .card-text{
+    color: rgba(255, 255, 255, 1);
+}
+.card-education .line{
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(90, 84, 242, 1);
+}
+.footer{
+    font-family: "Delius Unicase", cursive;
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+}
